@@ -32,6 +32,15 @@ $navbar-default-bg: #000;
     font-size: 1.7em;
 }
 
+.article-title {
+     font-weight: bold;
+     font-size: 1.5em;
+}
+.article-body {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 .desc {
     text-transform: uppercase;
 }
