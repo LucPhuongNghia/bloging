@@ -1,2 +1,50 @@
+$navbar-default-bg: #000;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+    float: left;
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+#logo:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.jumbotron {
+    background: url('amadTee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+.jumbotron .btn-xlarge {
+    font-size: 1.7em;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.footer p {
+    float: left;
+}
+.footer ul {
+    float: right;
+    list-style: none;
+}
+.footer ul li {
+    float: left;
+}
